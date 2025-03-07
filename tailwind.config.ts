@@ -23,10 +23,10 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGradient: "#7600BB", // Changed to purple
         indigo: {
-          500: "#6172F3",
-          700: "#3538CD",
+          500: "#7600BB",
+          700: "#5C0099",
         },
         success: {
           25: "#F6FEF9",
@@ -44,16 +44,16 @@ const config = {
           700: "#C11574",
           900: "#851651",
         },
-        blue: {
-          25: "#F5FAFF",
-          100: "#D1E9FF",
-          500: "#2E90FA",
-          600: "#1570EF",
-          700: "#175CD3",
-          900: "#194185",
+        blue: {  // Keeping the "blue" name but making it purple
+          25: "#FAF5FF",
+          100: "#E9D5FF",
+          500: "#7600BB",
+          600: "#6B00AA",
+          700: "#5C0099",
+          900: "#450077",
         },
         sky: {
-          1: "#F3F9FF",
+          1: "#6E3E96",
         },
         black: {
           1: "#00214F",
@@ -70,7 +70,7 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
+        "bank-gradient": "linear-gradient(90deg, #7600BB 0%, rgb(150, 88, 185) 100%)",
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
         "bank-green-gradient":
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
